@@ -2,6 +2,8 @@
 
 A lightweight Chrome Extension that lets you toggle a Figma-style 12-column grid overlay on any website using `Shift + G`. Customize grid container width and gutter size right from the popup.
 
+<img width="1512" alt="Screenshot 2025-06-13 at 12 17 15" src="https://github.com/user-attachments/assets/92fce7bc-7ba6-467c-8407-cf7d8a024dd9" />
+
 ---
 
 ## ✨ Features
