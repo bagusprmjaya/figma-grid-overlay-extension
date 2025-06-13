@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Figma Grid Overlay",
+  "version": "1.0",
+  "description": "Toggle a Figma-style grid overlay on any page using Shift + G.",
+  "permissions": [ "storage" ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Grid Settings"
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "content.js" ]
+    }
+  ]
+}

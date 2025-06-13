@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            padding: 16px;
+            width: 240px;
+            background-color: #f9fafb;
+            color: #111;
+            border-radius: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px 12px;
+            margin-top: 4px;
+            margin-bottom: 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #874FFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6b3fd8;
+        }
+    </style>
+</head>
+
+<body>
+    <label>Container Width
+        <input id="containerWidth" type="number" value="1200">
+    </label>
+    <label>Gutter Gap
+        <input id="gutter" type="number" value="20">
+    </label>
+    <button id="save">Save</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>
